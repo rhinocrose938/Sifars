@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.button {
+  border: none;
+  background-color: #ddd;
+  padding: 20px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px 8px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 1 px solid black;
+}
+
+.button:hover {
+  background-color: #f1f1f1;
+}
+
+.button:active {
+  background-color: lightgreen;
+  border: none;
+}
+.button:focus{
+  outline: none;
+}
+
+.button:visited{
+  border: none;
+}
